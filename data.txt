@@ -1,0 +1,34 @@
+code : string
+url : string
+creator : string
+created_t : date (UNIX timestamp format)
+created_datetime : date  (iso8601 format: yyyy-mm-ddThh:mn:ssZ)
+last_modified_t : date 
+last_modified_datetime: date
+product_name : string
+generic_name: string
+quantity : quantity and unit
+packaging : shape, material
+packaging_tags
+brands
+brands_tags
+categories
+categories_tags
+categories_fr
+origins : origins of ingredients
+origins_tags
+manufacturing_places : places where manufactured or transformed
+manufacturing_places_tags
+labels
+labels_tags
+labels_fr
+emb_codes
+emb_codes_tags
+first_packaging_code_geo : coordinates corresponding to the first packaging code indicated
+cities
+cities_tags
+purchase_places
+stores
+countries : list of countries where the product is sold
+countries_tags
+countries_fr
